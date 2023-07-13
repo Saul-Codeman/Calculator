@@ -1,0 +1,39 @@
+body{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.calculator {
+    background-color: rgb(40, 40, 40);
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;
+}
+
+.answer-container {
+    background-color: gray;
+    text-align: end;
+    margin: 16px;
+    padding: 16px;
+    width: 240px;
+    height: 25px;
+}
+
+.button-container {
+    background-color: rgb(40, 40, 40);
+    padding: 24px;
+}
+
+button {
+    padding: 24px;
+    width: 60px;
+    height: 60px;
+    border-radius: 24px;
+}
+
+.row-4 button {
+    padding: 0px 60px;
+}
