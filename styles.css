@@ -18,8 +18,12 @@ body{
     text-align: end;
     margin: 16px;
     padding: 16px;
-    width: 240px;
-    height: 25px;
+    width: 300px;
+    height: 40px;
+}
+
+.answer{
+    font-size: 24px;
 }
 
 .button-container {
@@ -29,11 +33,18 @@ body{
 
 button {
     padding: 24px;
-    width: 60px;
-    height: 60px;
+    width: 75px;
+    height: 75px;
     border-radius: 24px;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
-.row-4 button {
-    padding: 0px 60px;
+.function-buttons{
+    background-color: aqua;
+}
+
+.function-buttons.active {
+    background-color: rgb(97, 182, 1);
 }
